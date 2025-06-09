@@ -328,6 +328,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .practice__content-image {
     margin-left: 150px;
@@ -405,4 +406,129 @@ html {
 }
 .reviews__content-highlight {
     color: #6f1eaa;
+}
+.reviews__block {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+    width: 1072px;
+    height: 354px;
+    margin-top: 24px;
+    background: #dff5f6;
+}
+.reviews__block p {
+    display: flex;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 160%;
+    width: 709px;
+    margin-top: 16px;
+}
+.reviews__block-author {
+    display: flex;
+    align-items: center;
+}
+.reviews__block-icon-loves {
+    position: absolute;
+    width: 202px;
+    height: 203px;
+    bottom: 306px;
+    left: 989px;
+    z-index: 1;
+}
+.reviews__block-icon-dog {
+    width: 238px;
+    height: 238px;
+    margin-left: 40px;
+
+}
+.reviews__block-icon-instagram {
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+}
+
+
+.calendar {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 902px;
+    background: #faf9f6;
+    overflow: hidden;
+}
+.calendar__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calendar__content-title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 58px;
+}
+.calendar__content-description {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 175%;
+    text-align: center;
+    margin-top: 30px;
+}
+.calendar__blocks {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 84px;
+}
+.calendar__block {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 485px;
+    border: 1px solid #e8dcf8;
+}
+.calendar__block h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 151%;
+    margin-left: 36px;
+    margin-top: 35px;
+    color: #f7a500;
+}
+.calendar__block h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 132%;
+    margin-left: 36px;
+    margin-top: 16px;
+}
+.calendar__block p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 207%;
+    margin-left: 36px;
+    margin-top: 15px;
+}
+.calendar__block a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 119%;
+    color: #6f1eaa;
+    margin-left: 36px;
+    margin-top: 32px;
+}
+.calendar__button {
+    width: 160px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 119%;
+    margin-top: 49px;
+}
+.calendar__button:hover {
+    background-color: #F5A61C;
 }
