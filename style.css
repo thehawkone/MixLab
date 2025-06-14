@@ -532,3 +532,124 @@ html {
 .calendar__button:hover {
     background-color: #F5A61C;
 }
+
+
+.footer {
+    position: relative;
+    background: #48156d;
+}
+.footer__background-color {
+    background: #a24de5;
+    height: 151px;
+}
+.footer__top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a24de5;
+}
+.footer__supports {
+    display: flex;
+    align-items: center;
+    height: 151px;
+    gap: 64px;
+}
+.footer__supports:first-child {
+    margin-left: 40px;
+}
+.footer__supports:last-child {
+    margin-right: 40px;
+}
+.footer__bottom {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 367px;
+    background: #48156d;
+}
+.footer__info {
+    display: flex;
+    height: 367px;
+    width: 1220px;
+}
+.footer__info-menu {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 177px;
+    margin-left: 233px;
+    margin-top: 56px;
+}
+.footer__info-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #c282f0;
+}
+.footer__info-menu-item {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.footer__info-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #fff;
+}
+.footer__info-contacts {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 177px;
+    margin-left: 15px;
+    margin-top: 56px;
+}
+.footer__info-address-new-york {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 177px;
+    margin-left: 15px;
+    margin-top: 56px;
+}
+.footer__info-address-los-angeles {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 177px;
+    margin-left: 15px;
+    margin-top: 56px;
+}
+.footer__info-social {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 177px;
+    margin-left: 15px;
+    margin-top: 56px;
+}
+.footer__info-social-icons a{
+    margin-right: 24px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.footer__bottom-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 63px;
+    background: #48156d;
+}
+.footer__bottom-bar-menu {
+    display: flex;
+    width: 1220px;
+    gap: 18px;
+}
+.footer__info-bottom-info:first-child {
+    margin-left: 235px;
+}
